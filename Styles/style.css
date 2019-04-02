@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 a {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+img {
+  margin: 15px;
+}
