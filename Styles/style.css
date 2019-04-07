@@ -12,16 +12,33 @@ h1 a {
   padding: 5px;
 }
 
+h1 a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+p a:hover {
+  background-color: yellow;
+}
+
 a {
     text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  margin: 20px;
+}
+
+li {
+  margin: 20px;
+  display: inline;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: 900;
 }
 
 img {
   margin: 15px;
+  border-radius: 20px;
 }
