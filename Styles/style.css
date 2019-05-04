@@ -3,7 +3,7 @@ html {
   text-align: center;
 }
 
-h1 a {
+h1>a {
   background-color: black;
   color: white;
   text-align: center;
@@ -34,11 +34,35 @@ li {
   margin: 20px;
   display: inline;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 8px;
   font-weight: 900;
+  color: black;
+}
+
+li:hover {
+  background-color: yellow;
 }
 
 img {
   margin: 15px;
+  width: inherit;
   border-radius: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.grid-item {
+  width: 350px;
+  margin: 20px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-left: 40px;
+  margin-right: 40px;
 }
