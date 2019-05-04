@@ -21,7 +21,7 @@ p a:hover {
   background-color: yellow;
 }
 
-a {
+a:link {
     text-decoration: none;
 }
 
