@@ -27,7 +27,7 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 20px;
+
 }
 
 li {
@@ -50,14 +50,14 @@ img {
 }
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: auto auto auto;
-  padding: 20px;
 }
 
 .grid-item {
   width: 350px;
   margin: 20px;
+
 }
 
 .item1 {
